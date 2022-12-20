@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3001 // Puerto del API
 const app = express()
 
 app.use(cors())
+app.use(express.json()) // Para recibir datos en formato json
 app.use(router) // Uso de las rutas en ./routes/index.ts
 
 // Conexión a la base de datos
