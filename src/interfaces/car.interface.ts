@@ -1,6 +1,7 @@
 export interface Car {
     color: string;
-    gar: 'gasoline' | 'electric';
+    name: string;
+    gas: 'gasoline' | 'electric';
     year: number;
     description: string;
     price: number;
